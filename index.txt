@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت سنگ‌نوردی سی‌مُرغ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: right;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #4B7F52; /* سفید */
+            color: #fff;
+            padding: 10px 0;
+            border-bottom: #0779e4 3px solid;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .logo {
+            height: 50px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .routes {
+            list-style: none;
+            padding: 0;
+        }
+        .routes li {
+            margin: 10px 0;
+        }
+        .routes a {
+            text-decoration: none;
+            color: #0779e4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>سایت سنگ‌نوردی سی‌مُرغ</h1>
+            <img src="logo.png" alt="لوگوی سی‌مُرغ" class="logo">
+        </div>
+    </header>
+
+    <div class="container content">
+        <section class="location">
+            <h2>لوکیشن سایت</h2>
+            <p>جاده چالوس</p>
+        </section>
+
+        <section class="routes">
+            <h2>مسیرهای سنگ‌نوردی</h2>
+            <ul>
+                <li><a href="route1.html">مسیر دختر قشقایی</a></li>
+                <li><a href="route2.html">مسیر کامیکازه</a></li>
+                <li><a href="route3.html">مسیر هزار تو</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
