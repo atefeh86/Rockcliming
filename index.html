@@ -1,23 +1,80 @@
+
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-  <meta charset="UTF-8">
-  <title>مسیرهای سنگ‌نوردی</title>
-  <style>
-    body { font-family: Tahoma, sans-serif; direction: rtl; text-align: center; background: #f9f9f9; }
-    .container { max-width: 600px; margin: auto; padding: 20px; background: white; border-radius: 10px; }
-    img { max-width: 100%; border-radius: 8px; margin: 10px 0; }
-    a { display: inline-block; margin-top: 10px; padding: 10px 15px; background: #ff6600; color: white; text-decoration: none; border-radius: 5px; }
-    a:hover { background: #e65c00; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت سنگ‌نوردی سی‌مُرغ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: right;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #4B7F52; /* سفید */
+            color: #fff;
+            padding: 10px 0;
+            border-bottom: #0779e4 3px solid;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .logo {
+            height: 50px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .routes {
+            list-style: none;
+            padding: 0;
+        }
+        .routes li {
+            margin: 10px 0;
+        }
+        .routes a {
+            text-decoration: none;
+            color: #0779e4;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>دختر قشقایی</h1>
-    <p>درجه سختی: 8b+<br>توضیحات: این مسیر در دیواره شمالی قرار دارد و دارای بخش کراکس میانی است.</p>
-    <img src="https://drive.google.com/drive/folders/1-5jLR8rd5amJiVSJ-BG6ZTFuTsns9XjC=عکس+مسیر" alt="عکس مسیر">
-    <p>فیلم صعود این مسیر را می‌توانید در لینک زیر ببینید:</p>
-    <a href="https://www.aparat.com/v/123456" target="_blank">🎥 مشاهده ویدیو در آپارات</a>
-  </div>
+    <header>
+        <div class="container">
+            <h1>سایت سنگ‌نوردی سی‌مُرغ</h1>
+            <img src="logo.png" alt="لوگوی سی‌مُرغ" class="logo">
+        </div>
+    </header>
+
+    <div class="container content">
+        <section class="location">
+            <h2>لوکیشن سایت</h2>
+            <p>جاده چالوس</p>
+        </section>
+
+        <section class="routes">
+            <h2>مسیرهای سنگ‌نوردی</h2>
+            <ul>
+                <li><a href="route1.html">مسیر دختر قشقایی</a></li>
+                <li><a href="route2.html">مسیر کامیکازه</a></li>
+                <li><a href="route3.html">مسیر هزار تو</a></li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
